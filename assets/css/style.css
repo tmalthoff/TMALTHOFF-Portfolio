@@ -1,0 +1,23 @@
+.card {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+
+    
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+#profile-image {
+    width: 300px;
+    height: auto;
+}
+#about-me {
+    margin-left: 2rem;
+}
+body {
+    
+    background-image: url("../images/Bamboo\ Forest\ Train\ Tracks.jpg");
+    background-size: cover;
+}
