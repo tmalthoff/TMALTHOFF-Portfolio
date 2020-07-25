@@ -2,64 +2,68 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
-   
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-custom">
-        <span class="navbar-brand mb-1 h1" href="contact.html">Thomas Matthew Althoff</span>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+<!--Navbar start--> 
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-custom">
+    <span class="navbar-brand mb-1 h1" href="contact.html">Thomas Matthew Althoff</span>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="nav navbar-nav navbar-right">
-                <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact Me</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html">About Me</a>
-                </li>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">About Me</a>
+        </li>
 
-            </ul>
+      </ul>
 
+    </div>
+  </nav>
+<!--Container start-->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <div class="page-header">
+          <h1>About Me</h1>
         </div>
-    </nav>
-   
-    <div class="container">
         <div class="row">
-          <div class="col-md-8">
-            <div class="page-header">
-              <h1>About Me</h1>
-            </div>
-            <div class="row">
-              <div class="col-md-3">
-                <img src="./assets/images/Me Texas Flag Kyoto Shrine.jpg" alt="Placeholder" id="profile-image">
-              </div>
-              <div class="col-md-9">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dignissim, felis ut dictum tristique,
-                  nibh erat feugiat libero, sit amet fringilla mauris velit in mi. Duis tempus felis vitae
-                  felis vulputate pretium. Nullam commodo, est ac auctor ornare, eros nisi fringilla sem,
-                  non pulvinar tortor lorem sit amet sem. Aenean quis erat facilisis, porttitor ex cursus,
-                  luctus enim. Curabitur et metus in lacus tristique sagittis et in lorem. Nunc id nisi et
-                  neque fringilla ultricies. Aenean at feugiat elit, a posuere justo. Pellentesque egestas
-                  dolor et nisi venenatis, nec fermentum urna fringilla. Etiam efficitur porta purus, id
-                  posuere sem congue a.
-                </p>
-              </div>
-            </div>
+          <div class="col-md-4">
+            <img src="./assets/images/Me Texas Flag Kyoto Shrine.jpg" class="img-fluid" alt="Placeholder" id="profile-image">
           </div>
-</body>
+          <div class="col-md-8">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dignissim, felis ut dictum tristique,
+              nibh erat feugiat libero, sit amet fringilla mauris velit in mi. Duis tempus felis vitae
+              felis vulputate pretium. Nullam commodo, est ac auctor ornare, eros nisi fringilla sem,
+              non pulvinar tortor lorem sit amet sem. Aenean quis erat facilisis, porttitor ex cursus,
+              luctus enim. Curabitur et metus in lacus tristique sagittis et in lorem. Nunc id nisi et
+              neque fringilla ultricies. Aenean at feugiat elit, a posuere justo. Pellentesque egestas
+              dolor et nisi venenatis, nec fermentum urna fringilla. Etiam efficitur porta purus, id
+              posuere sem congue a.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </body>
 
 </html>

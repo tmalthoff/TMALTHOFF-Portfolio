@@ -4,8 +4,8 @@
     justify-content: center;
 }
 #profile-image {
-    width: 200px;
-    height: 150px;
+    width: 300px;
+    height: 200px;
     padding-right: 20px;
     padding-top: 8px;
 }
@@ -26,4 +26,13 @@ p {
 .bg-custom {
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(10,79,212,1) 32%, rgba(0,212,255,1) 100%);
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+#contact-form {
+    color: white;
 }
