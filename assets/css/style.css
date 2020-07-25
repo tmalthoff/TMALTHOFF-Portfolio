@@ -1,23 +1,25 @@
-.card {
-    display: flex;
-    flex-direction: row;
-    width: 70%;
 
-    
-}
 .container {
     display: flex;
     justify-content: center;
 }
 #profile-image {
-    width: 300px;
-    height: auto;
+    width: 200px;
+    height: 150px;
+    padding-right: 20px;
 }
-#about-me {
-    margin-left: 2rem;
+h1 {
+    color: white;
 }
 body {
-    
-    background-image: url("../images/Bamboo\ Forest\ Train\ Tracks.jpg");
+      background-image: url("../images/IMG_3240-2.jpg");
     background-size: cover;
+    
+}
+
+p {
+    color:black;
+    border: solid white;
+    background-color:white;
+    
 }
