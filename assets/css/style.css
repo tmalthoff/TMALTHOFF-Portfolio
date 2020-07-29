@@ -36,3 +36,29 @@ p {
 #contact-form {
     color: white;
 }
+
+#portfoliohead {
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    }
+
+    #Resume {
+        text-align: center;
+    }
+
+    .resumecenter {
+        text-align: center;
+    }
+
+    .portimg {
+        width: 300px;
+        height: 200;
+        padding-right: 40px;
+        padding-left: 40px;
+        padding-top: 40px;
+    
+    }
