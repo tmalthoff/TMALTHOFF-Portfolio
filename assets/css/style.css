@@ -33,9 +33,7 @@ p {
     height: auto;
 }
 
-#contact-form {
-    color: white;
-}
+
 
 #portfoliohead {
     text-align: center;
@@ -61,4 +59,40 @@ h2 {
         padding-left: 40px;
         padding-top: 40px;
     
+    }
+
+
+    #contact-card {
+        background-color: white;
+        color: black;
+        width: 60%;
+        padding: 25px;
+      
+    }
+
+    #row-one {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    #row-two {
+        display: flex;
+        justify-content: center;
+    }
+    #contact-section {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    #contact-form {
+        margin-left: 35px;
+
+    }
+
+    #submit-btn {
+margin-left: 1rem;
     }
