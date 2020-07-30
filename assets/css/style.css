@@ -97,3 +97,14 @@ h2 {
     #submit-btn {
 margin-left: 1rem;
     }
+
+    .linkedin {
+        text-align: center;
+        color: white;
+    }
+
+    .linkedintext {
+        color:white;
+        background-color: #00081f;
+        font-weight: 500;
+    }
