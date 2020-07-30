@@ -1,1 +1,2 @@
 # TMALTHOFF-Portfolio
+For this project I created a portfolio page that was responsive.  I made sure each image changed with the size of the screen, the navbar shrunk or expanded, and each link was online and went to the correct page.  I used my own photos that I had taken for every page, including the background.  I also linked my Linkedin page, created a contact page, and gave a brief biography of me.
