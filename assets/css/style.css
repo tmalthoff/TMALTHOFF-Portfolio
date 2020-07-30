@@ -79,6 +79,7 @@ h2 {
     #row-two {
         display: flex;
         justify-content: center;
+        flex-direction: row;
     }
     #contact-section {
         display: flex;
