@@ -108,3 +108,14 @@ margin-left: 1rem;
         background-color: #00081f;
         font-weight: 500;
     }
+
+    .github {
+        text-align: center;
+        color: white;
+    }
+
+    .githubtext {
+        color:white;
+        background-color: #00081f;
+        font-weight: 500;
+    }
